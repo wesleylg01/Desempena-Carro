@@ -2555,6 +2555,8 @@
 	ul {
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		color: white;
+		font-weight: bolder;
 	}
 
 		ul li {
