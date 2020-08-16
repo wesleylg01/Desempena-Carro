@@ -85,6 +85,19 @@
 	.container {
 		width: 80em;
 	}
+	
+	.inner p{
+		text-align: right;
+		text-indent: 0px;
+	}
+	.sobre p {
+		text-align: justify;
+		text-indent: 50px;
+	}
+	.contato p {
+		text-align: center;
+		text-indent: 0px;
+	}
 
 	@media screen and (max-width: 1680px) {
 
@@ -1673,15 +1686,11 @@
 		}
 
 	strong, b {
-		font-weight: 600;
+		font-weight: 300;
 	}
 
 	em, i {
 		font-style: italic;
-	}
-
-	p {
-		margin: 0 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3769,6 +3778,10 @@
 					display: none;
 				}
 
+
+		}
+		p{
+			font-size: 16px;
 		}
 
 		@media screen and (max-width: 736px) {
